@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "677281157320",
+    "firebase_url": "https://notetaker-b2320.firebaseio.com",
+    "project_id": "notetaker-b2320",
+    "storage_bucket": "notetaker-b2320.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:677281157320:android:72d463479c8e725ffc55fd",
+        "android_client_info": {
+          "package_name": "com.example.notetaker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "677281157320-1jenavmjds07g2tftcfvq6prv258aq21.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7AiHigqxTOsjwvusdrF72jT6NNSP9OjQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "677281157320-1jenavmjds07g2tftcfvq6prv258aq21.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

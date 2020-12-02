@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp"
+    android:background="@drawable/bg_gradient">
+
+    <TextView
+        android:id="@+id/tv_Title"
+        android:layout_width="280dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="35dp"
+        android:fontFamily="@font/khula_extrabold"
+        android:text="@string/notes_are_wonderfull"
+        android:textColor="@android:color/white"
+        android:textSize="26sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.052"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.096" />
+
+    <TextView
+        android:id="@+id/tv_Sub_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="125dp"
+        android:fontFamily="@font/lato"
+        android:text="@string/add_your_note_now"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.049"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.024" />
+
+
+    <TextView
+        android:id="@+id/tv_Note_label1"
+        android:layout_width="326dp"
+        android:layout_height="24dp"
+        android:fontFamily="@font/montserrat"
+        android:lineSpacingExtra="4sp"
+        android:text="@string/enter_note_title"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.087"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_Sub_title"
+        app:layout_constraintVertical_bias="0.13" />
+
+    <EditText
+        android:id="@+id/et_Title"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:layout_marginBottom="384dp"
+        android:background="@android:color/white"
+        android:inputType="text"
+        android:hint="Enter Title"
+        android:lineSpacingExtra="3sp"
+        android:paddingLeft="10dp"
+        android:paddingTop="1dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="1dp"
+        android:textColorHint="#6C757D"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.117"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_Note_label1"
+        app:layout_constraintVertical_bias="0.056" />
+
+    <TextView
+        android:id="@+id/tv_Note_label"
+        android:layout_width="326dp"
+        android:layout_height="24dp"
+        android:fontFamily="@font/montserrat"
+        android:lineSpacingExtra="4sp"
+        android:text="@string/note"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.176"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_Title"
+        app:layout_constraintVertical_bias="0.087" />
+
+    <EditText
+        android:id="@+id/et_Create_Note"
+        android:layout_width="match_parent"
+        android:layout_height="224dp"
+        android:layout_marginBottom="300dp"
+        android:background="@android:color/white"
+        android:hint="@string/write_note_here"
+        android:inputType="text"
+        android:gravity="top"
+        android:lineSpacingExtra="3sp"
+        android:paddingLeft="10dp"
+        android:paddingTop="1dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="1dp"
+        android:textColorHint="#6C757D"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_Note_label"
+        app:layout_constraintVertical_bias="0.0"
+        tools:layout_editor_absoluteX="25dp"
+        android:autofillHints="" />
+
+    <Button
+        android:id="@+id/btn_Create_Note"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_button"
+        android:fontFamily="@font/montserrat"
+        android:text="@string/create_note"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="17sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_Create_Note"
+        app:layout_constraintVertical_bias="0.831" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Note Taker</string>
+    <string name="register">Create Account</string>
+    <string name="cancel">Cancel</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="log_in">Login</string>
+    <string name="new_user">Don\'t have an account?</string>
+    <string name="register_now">Sign Up</string>
+    <string name="registered_sucessfully">Registered successfully!!</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">Hello Square World!</string>
+    <string name="welcome">Hi!</string>
+    <string name="logout">Logout</string>
+    <string name="new_email">New Email</string>
+    <string name="old_email">Old Email</string>
+    <string name="new_email_address">New Email Address</string>
+    <string name="update_password">Update Password</string>
+    <string name="update_email">Update Email</string>
+    <string name="splash_screen">Splash Screen</string>
+    <string name="change_of_mind">Change of Mind?</string>
+    <string name="edit_your_note_here">Edit your note here</string>
+    <string name="edit_your_note_now">Edit your note now!</string>
+    <string name="edit_note_title">Edit Note Title</string>
+    <string name="note">Note</string>
+    <string name="edit_note_here">Edit Note Here</string>
+    <string name="done">Done</string>
+    <string name="create_note">Create Note</string>
+    <string name="write_note_here">Write Note here</string>
+    <string name="enter_note_title">Enter Note Title</string>
+    <string name="notes_are_wonderfull">Notes Are Wonderful</string>
+    <string name="add_your_note_now">Add your note now!</string>
+    <string name="some_comments_are_here_to_stay_you_know">Some comments are here to stay, you know.</string>
+    <string name="note_taker">Note Taker</string>
+    <string name="where_best_">Where best of your ideas live!</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="sign_in">Sign In</string>
+    <string name="changing_passwords_make_your_account_more_secure">Changing passwords make your account more secure!</string>
+    <string name="confirm_new_password">Confirm New Password</string>
+    <string name="new_password">New Password</string>
+    <string name="set_an_email_that_can_help_you_stay_connected_to_us_always">Set an email that can help you stay connected to us always!</string>
+</resources>
